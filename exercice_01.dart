@@ -10,3 +10,12 @@ class Couleur{
     print("Couleur: r=$r, g=$g, b=$b");
   }
 }
+void main(){
+  Couleur c1=Couleur.rouge();
+  Couleur c2=Couleur.vert();
+  Couleur c3=Couleur.bleu();
+
+  c1.afficherCouleur();
+  c2.afficherCouleur();
+  c3.afficherCouleur();
+}
